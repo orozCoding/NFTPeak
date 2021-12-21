@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@font-face { font-family: cocogoose; src: url(cocogoose.ttf); }
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a:link {
+  text-decoration: inherit;
+  color: inherit;
+  cursor: auto;
+}
+
+a:visited {
+  text-decoration: inherit;
+  color: inherit;
+  cursor: auto;
+}
+
+.d-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.d-off {
+  display:none;
+}
+
+/* Temp limitation */ 
+
+body {
+  max-width: 768px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Lato, sans-serif;
+  background-color: #fff;
+}
+
+#head {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../img/bg/bgwhite.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+}
+
+#menu-burger {
+  margin: 0 0 0 25px;
+}
+
+#head-subtitle {
+  font-size: 30px;
+  color: #ec5242;
+  margin-top: 50px;
+}
+
+#head-title {
+  font-family: cocogoose, 'Arial Narrow', Arial, sans-serif;
+  font-size: 40px;
+  margin-top: 3px;
+  color: #ec5242;
+}
+
+#head-year {
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 40px;
+  font-weight: bold;
+  color: #ec5242;
+}
+
+#menu-burger,
+#head-subtitle,
+#head-title,
+#head-year,
+#head-date,
+#head-location {
+  align-self: start;
+  margin-left: 25px; 
+}
+
+#head-subinfo {
+  background-color: #d3d3d3;
+  padding: 15px;
+  border: solid 2px #fff;
+  margin-top: 35px;
+  margin: 35px 25px 0 25px;
+  line-height: 30px;
+  font-size: 20px;
+}
+
+#head-date {
+  font-family: 'Archivo Black', sans-serif;
+  font-size: 25px;
+  margin-top: 35px;
+}
+
+#head-location {
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 100px;
+}
+
+#program {
+  background-image: url(../img/bg/bgblack.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 50%;
+  width: 100%;
+  color: #fff;
+}
+
+#program-container {
+  margin-top: 35px;
+  align-items: center;
+  justify-content: center;
+}
+
+.divisor {
+  margin-top: 10px;
+  border-top: solid 1.5px #ec5242;
+  width: 60px;
+}
+
+#pro-items-container {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 10px;
+  width: 90%;
+}
+.pro-item-box {
+  flex-direction: row;
+  background-color: rgba(255, 255, 255, 0.2);
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 5px;
+  backdrop-filter: blur(6px) opacity(0.8);
+}
+
+.pro-item-icon .bi {
+  font-size: 34px;
+}
+
+.pro-item-title {
+  color: #ec5242
+}
+
+.pro-item-icon,
+.pro-item-title {
+  width: 20%;
+  flex-grow: 1;
+  text-align: center;
+}
+
+.pro-item-info {
+  width: 60%;
+  flex-grow: 2;
+  text-align: left;
+  font-size: 90%;
+  padding: 10px;
+  margin-left: 5px;
+}
+
+@media screen and (max-width: 424px) {
+  .pro-item-title {
+    font-size: 100%;
+  }
+
+  .pro-item-icon .bi {
+    font-size: 20px;
+  }
+
+  .pro-item-box {
+    font-size: 70%;
+  }
+
+  #head-title {
+    font-size: 30px;
+  }
+  
+  #head-year {
+    font-size: 30px;
+  }
+
+  #head-subinfo {
+    font-size: 15px;
+  }
+  
+  #head-date {
+    font-size: 20px;
+  }
+  
+  #head-location {
+    font-size: 18px;
+  }
+}
+
+#pro-join-btn {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding: 20px 50px 20px 50px;
+  background-color: #ec5242;
+  color: #fff;
+  border: none;
+  font-family: Lato, sans-serif;
+  font-size: 17px;
+
+  
+}
+
+#speakers {
+  width: 100%;
+  background-color: #fff;
+  max-width: 90%;
+  margin-top: 20px;
+  margin-bottom: 50px;
+}
+
+#sp-items-container {
+  margin-top: 40px;
+  gap: 30px;
+}
+
+.sp-box {
+  flex-direction: row;
+}
+
+.sp-box-photo {
+  max-width: 150px;
+}
+
+.sp-box-photo img {
+  max-width: 100%;
+}
+
+.sp-box-info {
+  max-width: 60%;
+  align-items: start;
+  margin-left: 20px;
+  gap: 5px;
+}
+
+.sp-box-info-title {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+.sp-box-info-job {
+  font-style: italic;
+  color: #ec5242;
+}
+
+.sp-box hr {
+  border-top: solid 1.5px #d3d3d3;
+}
+
+.sp-box-info-extra {
+  font-size: 13px;
+}
+
+#partner {
+  width: 100%;
+  background-color: rgb(73, 73, 73);
+}
+
+#partner-container {
+  margin-top: 30px;
+}
+
+#par-title {
+  color: #fff;
+}
+
+#par-logo-container {
+  width: 90%;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#par-logo-container img {
+  max-width: 100px;
+}

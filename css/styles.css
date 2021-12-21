@@ -214,6 +214,7 @@ body {
 
 .sp-box {
   flex-direction: row;
+  transition: all 1.5s ease;
 }
 
 .sp-box-photo {
@@ -247,6 +248,26 @@ body {
 
 .sp-box-info-extra {
   font-size: 13px;
+}
+
+#sp-button {
+  width: 100%;
+  background-color: #fff;
+  padding: 15px 0 15px 0;
+  font-size: 20px;
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+.order-3,
+.order-4,
+.order-5,
+.order-6 {
+  display: none;
+}
+
+.sp-on {
+  display: flex;
 }
 
 #partner {
@@ -458,15 +479,25 @@ footer {
   font-size: 32px;
   line-height: 44px;
   color: #fff;
+  cursor: pointer;
 }
 
 #menu-overlay .container div {
   align-self: end;
 }
 
+#menu-overlay a {
+  cursor: pointer;
+}
+
 .xicon-image {
   margin: 20px 20px 0 0;
   padding: 5px;
+  cursor: pointer;
+}
+
+.overlay-btn {
+  cursor: pointer;
 }
 
 .d-off {

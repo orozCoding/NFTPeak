@@ -11,13 +11,11 @@
 a:link {
   text-decoration: inherit;
   color: inherit;
-  cursor: auto;
 }
 
 a:visited {
   text-decoration: inherit;
   color: inherit;
-  cursor: auto;
 }
 
 .d-flex {
@@ -30,6 +28,10 @@ a:visited {
   display: none;
 }
 
+.pointer {
+  cursor: pointer;
+}
+
 /* Temp limitation */
 
 body {
@@ -37,7 +39,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  font-family: Lato, sans-serif;
+  font-family: 'Lato', sans-serif;
   background-color: #fff;
 }
 
@@ -48,12 +50,8 @@ body {
   transition: all 1.5s ease;
 }
 
-#menu-mobile .unactive {
-  top: -100%;
-}
-
-#menu-mobile .active {
-  top: 0;
+#nav-bar {
+  display: none;
 }
 
 #head {
@@ -121,6 +119,12 @@ body {
   font-size: 20px;
   margin-top: 10px;
   margin-bottom: 100px;
+}
+
+/* main program */
+
+#pro-link {
+  display: none;
 }
 
 #program {
@@ -195,7 +199,7 @@ body {
   background-color: #ec5242;
   color: #fff;
   border: none;
-  font-family: Lato, sans-serif;
+  font-family: 'Lato', sans-serif;
   font-size: 17px;
 }
 

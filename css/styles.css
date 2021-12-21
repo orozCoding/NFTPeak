@@ -500,10 +500,6 @@ footer {
   cursor: pointer;
 }
 
-.d-off {
-  display: none;
-}
-
 .no-scroll {
   overflow: hidden;
 }

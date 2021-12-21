@@ -9,7 +9,7 @@ const speakers = [{
 {
   speaker: 'Changpeng Zhao',
   job: 'Founder and CEO of Binance',
-  info: `Changpeng Zhao, is a Chinese-Canadian business executive. Zhao is the founder and CEO of Binance, the world's largest cryptocurrency exchange by trading volume.`,
+  info: 'Changpeng Zhao, is a Chinese-Canadian business executive. Zhao is the founder and CEO of Binance, the world\'s largest cryptocurrency exchange by trading volume.',
   img: 'img/speaker/cz.png',
   alt: 'Changpeng Zhao',
   order: '2',
@@ -49,8 +49,8 @@ const speakers = [{
 
 const speakersSection = document.getElementById('sp-items-container');
 
-speakers.forEach(element => {
-  let div = document.createElement('div');
+speakers.forEach((element) => {
+  const div = document.createElement('div');
   div.classList.add('sp-box', 'd-flex', `order-${element.order}`);
   div.innerHTML = `<div class="sp-box-photo"><img src="${element.img}" alt="${element.alt}"></div>
   <div class="sp-box-info d-flex">
@@ -58,17 +58,17 @@ speakers.forEach(element => {
     <p class="sp-box-info-job">${element.job}</p>
     <hr class="divisor">
     <p class="sp-box-info-extra">${element.info}</p>
-  </div>`
+  </div>`;
 
-  speakersSection.appendChild(div);
+speakersSection.appendChild(div);
 
 });
 
 const moreBtn = document.getElementById('sp-button');
 const boxes = document.querySelectorAll('.sp-box');
 
-moreBtn.addEventListener('click', (event) => {
-  boxes.forEach(element => {
+moreBtn.addEventListener('click', () => {
+  boxes.forEach((element) => {
     element.classList.toggle('sp-on');
   });
-})
+});

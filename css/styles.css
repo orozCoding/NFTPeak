@@ -41,6 +41,21 @@ body {
   background-color: #fff;
 }
 
+#menu-mobile {
+  position: fixed;
+  top: -100%;
+  color: red;
+  transition: all 1.5s ease;
+}
+
+#menu-mobile .unactive {
+  top: -100%;
+}
+
+#menu-mobile .active {
+  top: 0;
+}
+
 #head {
   flex-direction: column;
   align-items: center;
@@ -54,6 +69,7 @@ body {
 #menu-burger {
   margin: 0 0 0 25px;
   font-size: 50px;
+  cursor: pointer;
 }
 
 #head-subtitle {
@@ -198,6 +214,7 @@ body {
 
 .sp-box {
   flex-direction: row;
+  transition: all 1.5s ease;
 }
 
 .sp-box-photo {
@@ -231,6 +248,26 @@ body {
 
 .sp-box-info-extra {
   font-size: 13px;
+}
+
+#sp-button {
+  width: 100%;
+  background-color: #fff;
+  padding: 15px 0 15px 0;
+  font-size: 20px;
+  margin-top: 40px;
+  cursor: pointer;
+}
+
+.order-3,
+.order-4,
+.order-5,
+.order-6 {
+  display: none;
+}
+
+.sp-on {
+  display: flex;
 }
 
 #partner {
@@ -417,4 +454,52 @@ footer {
 
 #event-arg {
   background-image: linear-gradient(to right, rgba(238, 82, 60, 0.65), rgba(238, 82, 60, 0.65)), url("../img/bg/2019.jpg");
+}
+
+#menu-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #ec5242;
+  mix-blend-mode: multiply;
+  backdrop-filter: blur(6px) opacity(0.5);
+  transition: all 0.25s linear;
+}
+
+#menu-overlay .container,
+#menu-overlay ul {
+  flex-direction: column;
+}
+
+#menu-overlay ul {
+  margin-left: 20px;
+  gap: 25px;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 44px;
+  color: #fff;
+  cursor: pointer;
+}
+
+#menu-overlay .container div {
+  align-self: end;
+}
+
+#menu-overlay a {
+  cursor: pointer;
+}
+
+.xicon-image {
+  margin: 20px 20px 0 0;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.overlay-btn {
+  cursor: pointer;
+}
+
+.no-scroll {
+  overflow: hidden;
 }

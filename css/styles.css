@@ -353,7 +353,7 @@ footer img {
 
 #about-head-contact {
   font-size: 20px;
-  margin-top: 10px;
+  margin-top: 30px;
   margin-bottom: 100px;
   width: 70%;
   gap: 10px;
@@ -388,6 +388,7 @@ footer img {
   text-align: center;
   margin-top: 35px;
   gap: 20px;
+  padding-bottom: 50px;
 }
 
 .about-past-event {
@@ -402,7 +403,6 @@ footer img {
 
 .past-event {
   padding: 30px 5px 30px 5px;
-  background-color: #ec5242;
   width: 70%;
   padding: 70px 0 70px 0;
   color: #fff;
@@ -412,3 +412,12 @@ footer img {
 .past-event-title {
   font-size: 30px;
 }
+
+#event-ven {
+  background-image: linear-gradient(to right, rgba(238, 82, 60, 0.65), rgba(238, 82, 60, 0.65)), url("../img/bg/2020.jpg");
+}
+
+#event-arg {
+  background-image: linear-gradient(to right, rgba(238, 82, 60, 0.65), rgba(238, 82, 60, 0.65)), url("../img/bg/2019.jpg");
+}
+

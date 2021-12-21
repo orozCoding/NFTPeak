@@ -170,40 +170,6 @@ body {
   margin-left: 5px;
 }
 
-@media screen and (max-width: 424px) {
-  .pro-item-title {
-    font-size: 100%;
-  }
-
-  .pro-item-icon .bi {
-    font-size: 20px;
-  }
-
-  .pro-item-box {
-    font-size: 70%;
-  }
-
-  #head-title {
-    font-size: 30px;
-  }
-  
-  #head-year {
-    font-size: 30px;
-  }
-
-  #head-subinfo {
-    font-size: 15px;
-  }
-  
-  #head-date {
-    font-size: 20px;
-  }
-  
-  #head-location {
-    font-size: 18px;
-  }
-}
-
 #pro-join-btn {
   margin-top: 25px;
   margin-bottom: 25px;
@@ -289,7 +255,7 @@ body {
 }
 
 #par-logo-container img {
-  max-width: 100px;
+  max-width: 170px;
 }
 
 footer {
@@ -308,6 +274,44 @@ footer {
 
 footer img {
   max-width: 100px;
+}
+
+@media screen and (max-width: 424px) {
+  .pro-item-title {
+    font-size: 100%;
+  }
+
+  .pro-item-icon .bi {
+    font-size: 20px;
+  }
+
+  .pro-item-box {
+    font-size: 70%;
+  }
+
+  #head-title {
+    font-size: 30px;
+  }
+  
+  #head-year {
+    font-size: 30px;
+  }
+
+  #head-subinfo {
+    font-size: 15px;
+  }
+  
+  #head-date {
+    font-size: 20px;
+  }
+  
+  #head-location {
+    font-size: 18px;
+  }
+
+  #par-logo-container img {
+    max-width: 100px;
+  }
 }
 
 /* About Section */

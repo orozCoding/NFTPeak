@@ -60,8 +60,7 @@ speakers.forEach((element) => {
     <p class="sp-box-info-extra">${element.info}</p>
   </div>`;
 
-speakersSection.appendChild(div);
-
+  speakersSection.appendChild(div);
 });
 
 const moreBtn = document.getElementById('sp-button');

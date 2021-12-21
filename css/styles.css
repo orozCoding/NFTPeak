@@ -136,6 +136,7 @@ body {
   gap: 10px;
   width: 90%;
 }
+
 .pro-item-box {
   flex-direction: row;
   background-color: rgba(255, 255, 255, 0.2);
@@ -151,7 +152,7 @@ body {
 }
 
 .pro-item-title {
-  color: #ec5242
+  color: #ec5242;
 }
 
 .pro-item-icon,
@@ -178,7 +179,7 @@ body {
   color: #fff;
   border: none;
   font-family: Lato, sans-serif;
-  font-size: 17px; 
+  font-size: 17px;
 }
 
 #speakers {
@@ -272,7 +273,7 @@ footer {
   gap: 20px;
 }
 
-footer img {
+.footer-img {
   max-width: 100px;
 }
 
@@ -292,7 +293,7 @@ footer img {
   #head-title {
     font-size: 30px;
   }
-  
+
   #head-year {
     font-size: 30px;
   }
@@ -300,11 +301,11 @@ footer img {
   #head-subinfo {
     font-size: 15px;
   }
-  
+
   #head-date {
     font-size: 20px;
   }
-  
+
   #head-location {
     font-size: 18px;
   }
@@ -325,7 +326,6 @@ footer img {
   background-size: cover;
   background-position: 50% 50%;
   text-align: center;
-
 }
 
 #about-menu-burger {
@@ -349,7 +349,6 @@ footer img {
   background-color: #fff;
   padding: 15px;
   border: solid 2px #d3d3d3;
-  margin-top: 35px;
   margin: 35px 25px 0 25px;
   line-height: 30px;
   font-size: 20px;
@@ -400,13 +399,7 @@ footer img {
   gap: 20px;
 }
 
-.about-past-event {
-  gap: 20px;
-}
-
-
 .past-event {
-  padding: 30px 5px 30px 5px;
   width: 70%;
   padding: 70px 0 70px 0;
   color: #fff;
@@ -424,4 +417,3 @@ footer img {
 #event-arg {
   background-image: linear-gradient(to right, rgba(238, 82, 60, 0.65), rgba(238, 82, 60, 0.65)), url("../img/bg/2019.jpg");
 }
-

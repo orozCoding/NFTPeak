@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+
 @font-face { font-family: cocogoose; src: url(cocogoose.ttf); }
 
 * {
@@ -26,10 +27,10 @@ a:visited {
 }
 
 .d-off {
-  display:none;
+  display: none;
 }
 
-/* Temp limitation */ 
+/* Temp limitation */
 
 body {
   max-width: 768px;
@@ -82,14 +83,13 @@ body {
 #head-date,
 #head-location {
   align-self: start;
-  margin-left: 25px; 
+  margin-left: 25px;
 }
 
 #head-subinfo {
   background-color: #d3d3d3;
   padding: 15px;
   border: solid 2px #fff;
-  margin-top: 35px;
   margin: 35px 25px 0 25px;
   line-height: 30px;
   font-size: 20px;

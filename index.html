@@ -7,20 +7,45 @@
   <title>NFT Peak - International Summit</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
   <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="css/desktop.css">
 </head>
 <body>
 
   <header class="d-flex">
-    <nav id="menu-mobile" class="off d-flex">
-      <a href="" class="mobile-menu-btn">Home</a>
-      <a href="" class="mobile-menu-btn">About</a>
+    <nav id="nav-bar" class="d-flex">
+      <div id="black-bar" class="d-flex">
+        <div class="social-icons d-flex">
+          <div id="fb-icon"><i class="bi bi-facebook"></i></div>
+          <div id="tw-icon"><i class="bi bi-twitter"></i></div>
+        </div>
+        <ul id="black-link-list" class="d-flex">
+          <li class="black-link">English</li>
+          <li class="black-link">My Page</li>
+          <li class="black-link">Logout</li>
+        </ul>
+      </div>
+      <div id="white-bar" class="d-flex">
+        <div id="white-bar-container" class="d-flex">
+          <div class="white-bar-logo d-flex">
+            <a href="index.html"><img src="img/logo/logo.png" alt="NFT Peak Logo" class="pointer"></a>
+          </div>
+          <ul id="white-link-list" class="d-flex">
+            <li class="white-link"><a class="pointer" href="about.html">About</a></li>
+            <li class="white-link pointer"><a href="">Program</a></li>
+            <li class="white-link pointer"><a href="">Join</a></li>
+            <li class="white-link pointer"><a href="">Sponsor</a></li>
+            <li class="white-link pointer"><a href="">News</a></li>
+          </ul>
+          <button type="button" id="white-bar-button">NFT Campaign</button>
+        </div>
+      </div>
     </nav>
   </header>
 
   <section id="head" class="d-flex">
     <div id="head-container" class="d-flex">
       <div id="menu-burger" class="menu-burger"><i class="bi bi-list" id="menuclick"></i></div>
-      <h3 id="head-subtitle">Hello Gamers!</h3>
+      <h3 id="head-subtitle">"Hello Gamers!"</h3>
       <h1 id="head-title">NFT GAMES PEAK<br>GLOBAL SUMMIT</h1>
       <h2 id="head-year">2021</h2>
       <h4 id="head-subinfo">An international conference to disseminate the most recent advances in the field of NFT gaming.</h4>
@@ -34,34 +59,34 @@
       <h2 id="pro-title">Main Program</h2>
       <hr class="divisor">
       <div id="pro-items-container" class="d-flex">
-        <div class="pro-item-box d-flex">
-          <div class="pro-item-icon"><i class="bi bi-person-bounding-box"></i></div>
-          <h3 class="pro-item-title">Lecture</h3>
-          <p class="pro-item-info">Listen to the speakers from various countries about the future of NFT gaming.</p>
+        <div class="pro-item-box d-flex pointer pointer">
+          <div class="pro-item-icon d-flex"><i class="bi bi-person-bounding-box"></i></div>
+          <div class="pro-item-title d-flex"><h3>Lecture</h3></div>
+          <p class="pro-item-info d-flex d-flex">Listen to the speakers from various countries about the future of NFT gaming.</p>
         </div>
-        <div class="pro-item-box d-flex">
-          <div class="pro-item-icon"><i class="bi bi-bag-check"></i></div>
-          <h3 class="pro-item-title">Exhibition</h3>
-          <p class="pro-item-info">Appreciate various NFT creations, related to art and gaming.</p>
+        <div class="pro-item-box d-flex pointer">
+          <div class="pro-item-icon d-flex"><i class="bi bi-bag-check"></i></div>
+          <div class="pro-item-title d-flex"><h3>Exhibition</h3></div>
+          <p class="pro-item-info d-flex">Appreciate various NFT creations, related to art and gaming.</p>
         </div>
-        <div class="pro-item-box d-flex">
-          <div class="pro-item-icon"><i class="bi bi-chat-left-text"></i></div>
-          <h3 class="pro-item-title">Forum</h3>
-          <p class="pro-item-info">Have the time to share your thoughts and opinions with experts for each topic.</p>
+        <div class="pro-item-box d-flex pointer">
+          <div class="pro-item-icon d-flex"><i class="bi bi-chat-left-text"></i></div>
+          <div class="pro-item-title d-flex"><h3>Forum</h3></div>
+          <p class="pro-item-info d-flex">Have the time to share your thoughts and opinions with experts for each topic.</p>
         </div>
-        <div class="pro-item-box d-flex">
-          <div class="pro-item-icon"><i class="bi bi-brush"></i></div>
-          <h3 class="pro-item-title">Workshop</h3>
-          <p class="pro-item-info">Try creating your own NFT using many of the most popular platforms.</p>
+        <div class="pro-item-box d-flex pointer">
+          <div class="pro-item-icon d-flex"><i class="bi bi-brush"></i></div>
+          <div class="pro-item-title d-flex"><h3>Workshop</h3></div>
+          <p class="pro-item-info d-flex">Try creating your own NFT using many of the most popular platforms.</p>
         </div>
-        <div class="pro-item-box d-flex">
-          <div class="pro-item-icon"><i class="bi bi-people-fill"></i></div>
-          <h3 class="pro-item-title">Ignite</h3>
-          <p class="pro-item-info">Get aoppotunities to networkg with NFT enthusiast around the world.</p>
+        <div class="pro-item-box d-flex pointer">
+          <div class="pro-item-icon d-flex"><i class="bi bi-people-fill"></i></div>
+          <div class="pro-item-title d-flex"><h3>Ignite</h3></div>
+          <p class="pro-item-info d-flex">Get aoppotunities to networkg with NFT enthusiast around the world.</p>
         </div>
       
       </div>
-      <a href="#" id="pro-link" class="d-off">SEE THE WHOLE PROGRAM</a>
+      <a href="#" id="pro-link" class="pointer">SEE THE WHOLE PROGRAM</a>
       <button type="button" id="pro-join-btn">Join NFT Peak Summit</button>
     </div>
   </section>

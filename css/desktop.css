@@ -280,13 +280,14 @@
 
   .about-past-event {
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     margin-top: 20px;
     margin-bottom: 30px;
+    gap: 60px;
   }
 
   .past-event {
-    max-width: 40%;
+    max-width: 30%;
   }
 
   .past-event:hover {

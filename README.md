@@ -11,8 +11,8 @@
 
 ## Live Demo
 
-Visit a live version of the website here:
-[NFT GAMING PEAK SUMMIT](https://orozcoding.github.io/NFTPeak/)
+> Visit a live version of the website here:
+> [NFT GAMING PEAK SUMMIT](https://orozcoding.github.io/NFTPeak/)
 
 ## Built With
 
@@ -29,5 +29,5 @@ Visit a live version of the website here:
 
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
-Original design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07).
+- This project is [MIT](./MIT.md) licensed.
+- Original design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07).

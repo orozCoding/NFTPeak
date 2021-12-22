@@ -245,10 +245,54 @@
 
   /* about page */
 
-  #about-head-title,
-  #about-head-subinfo {
-
+  #about-head-title {
+    margin-top: 60px;
+    font-size: 50px;
   }
+
+  #about-head-subinfo {
+    max-width: 70%;
+    font-size: 15px;
+  }
+
+  #about-head-contact {
+    font-size: 15px;
+  }
+  
+  #about-logo {
+    gap: 30px;
+  }
+
+  #about-logo .divisor,
+  #about-past .divisor {
+    margin-top: -10px;
+  }
+
+  #about-logo-logo {
+    max-width: 50%;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+
+  #about-past {
+    gap: 30px;
+  }
+
+  .about-past-event {
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 20px;
+    margin-bottom: 30px;
+  }
+
+  .past-event {
+    max-width: 40%;
+  }
+
+  .past-event:hover {
+    opacity: 0.8;
+  }
+
 
 }
 

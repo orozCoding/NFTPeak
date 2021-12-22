@@ -320,6 +320,10 @@ footer {
   max-width: 100px;
 }
 
+#footer-info-description a {
+  color: #ec5242;
+}
+
 @media screen and (max-width: 424px) {
   .pro-item-title {
     font-size: 100%;

@@ -37,6 +37,7 @@
     list-style: none;
     margin-right: 50px;
     gap: 15px;
+    font-size: smaller;
   }
 
   .social-icons {
